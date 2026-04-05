@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* 🎯 DESIGN TOKENS */
+:root {
+  --color-bg: #F8FAFC;
+  --color-text: #0F172A;
+
+  --color-primary: #0F172A;
+  --color-accent: #6366F1;
+
+  --color-border: #E2E8F0;
+  --color-muted: #F1F5F9;
+
+  --radius: 0.75rem;
+}
+
+/* 🌙 Dark mode ready */
+.dark {
+  --color-bg: #020617;
+  --color-text: #F8FAFC;
+}
+
+/* BASE */
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: system-ui, sans-serif;
+}
